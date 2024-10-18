@@ -89,6 +89,17 @@ class Face_Recognition_System:
         txt_button = Button(self.root, text=button_text, font=("Arial", 12, "bold"), bg="lightgray", fg="navy", cursor="hand2", bd=0, activebackground="lightblue")
         txt_button.place(x=x_position, y=y_position + height + 5, width=width, height=30)
 
+
+
+
+
+
+
+
+
+
+
+
 if __name__ == "__main__":
     root = Tk()
     obj = Face_Recognition_System(root)
